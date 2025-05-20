@@ -35,7 +35,7 @@ const Navi = styled.nav`
     text-align: center;
     height: 300px;
    background:transparent;
-   backdrop-filter: blur(3px);
+   backdrop-filter: blur(15px);
     flex-direction: column;
     justify-content: flex-start;
     padding-top: 40px;
