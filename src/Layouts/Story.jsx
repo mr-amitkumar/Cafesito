@@ -34,7 +34,9 @@ const HeadH1 = styled.h1`
   font-weight: 500;
   padding: 20px;
   @media (max-width: 768px) {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    
   }
 `;
 
