@@ -10,7 +10,7 @@ const MenuContainer = styled.div`
   padding: 30rem 0;
     @media (max-width: 768px) {
     height: 100vh;
-    padding: 40rem 0;
+    padding: 50rem 0;
   } 
 `;
 
@@ -33,7 +33,7 @@ const MenuPara = styled.p`
   border-radius: 10px;
   font-family: sans-serif;
     @media (max-width: 768px) {
-    font-size: 22px;
+    font-size: 20px;
     padding: 10px 20px;
   }
 `;
@@ -83,7 +83,7 @@ const LeftHead = styled.h1`
   margin-top: 30px;
   margin-bottom: 20px;
     @media (max-width: 768px) {
-    font-size: 30px;
+    font-size: 3.2rem;
     margin-top: 20px;
     margin-bottom: 10px;
   }
@@ -101,7 +101,7 @@ const LeftContentHead = styled.h2`
   margin-bottom: 10px;
   margin-left: 10px;
   @media (max-width: 768px) {
-    font-size: 15px;
+    font-size: 23px;
     margin-bottom: 5px;
   }
 
@@ -114,7 +114,7 @@ const LeftContentPara = styled.p`
   border-bottom: 0.5px solid lightgrey;
   margin-bottom: 10px;
   @media (max-width: 768px) {
-    font-size: 12px;
+    font-size: 15px;
     margin-bottom: 5px;
   }
 `;
@@ -128,7 +128,7 @@ const RightHead = styled.h1`
   margin-top: 30px;
   margin-bottom: 20px;
   @media (max-width: 768px) {
-    font-size: 30px;
+    font-size: 3.2rem;
     margin-top: 20px;
     margin-bottom: 10px;
   }
@@ -146,7 +146,7 @@ const RightContentHead = styled.h2`
   margin-bottom: 10px;
   margin-left: 10px;
   @media (max-width: 768px) {
-    font-size: 15px;
+    font-size: 23px;
     margin-bottom: 5px;
   }
 `;
@@ -155,10 +155,10 @@ const RightContentPara = styled.p`
   font-family: sans-serif;
   margin-left: 2px;
   text-align: center;
-  border-bottom: 0.5px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
   margin-bottom: 10px;
   @media (max-width: 768px) {
-    font-size: 12px;
+    font-size: 15px;
     margin-bottom: 5px;
   }
 `;
