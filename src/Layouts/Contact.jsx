@@ -31,7 +31,8 @@ const Heading = styled.h1`
   font-weight: 500;
   padding: 20px;
   @media (max-width: 768px) {
-    font-size: 1.6rem;
+    font-size: 2rem;
+    text-align:center;
   }
 `;
 const SubHead = styled.h2`
@@ -41,7 +42,7 @@ const SubHead = styled.h2`
   font-family: verdana;
   font-weight: 500;
   @media (max-width: 768px) {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
   }
 `;
 const Paragraph = styled.p`
@@ -52,7 +53,7 @@ const Paragraph = styled.p`
   font-family: sans-serif;
   margin-left: 10px;
   @media (max-width: 768px) {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 `;
 
@@ -78,7 +79,7 @@ const Dh = styled.h1`
   font-weight: 500;
   padding: 20px;
   @media (max-width: 768px) {
-    font-size: 1.4rem;
+    font-size: 2rem;
   }
 `;
 const DPara = styled.p`
@@ -89,7 +90,7 @@ const DPara = styled.p`
   padding: 2px 1px;
   margin-left: 10px;
   @media (max-width: 768px) {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 `;
 
