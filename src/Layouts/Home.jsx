@@ -35,7 +35,7 @@ const HomeDetails = styled.h1`
   margin-bottom: 10px;
   background: rgba(0, 0, 0, 0.6);
     @media (max-width: 768px) {
-    font-size: 2.9rem;
+    font-size: 3.5rem;
     letter-spacing: 10px;
   }
 `;
@@ -51,7 +51,7 @@ const HomePara = styled.p`
   color: white;
   border-radius: 5px;
     @media (max-width: 768px) {
-    font-size: 1rem;
+    font-size: 1.6rem;
     letter-spacing: 1px;
     padding: 10px;
   }
@@ -72,8 +72,8 @@ const HomeButton = styled.button`
     color: #fff;
   }
       @media (max-width: 768px) {
-    font-size: 0.8rem;
-    padding: 5px 10px;
+    font-size: 1.2rem;
+    padding: 6px 12px;
     margin-top: 10px;
   }
 `;
