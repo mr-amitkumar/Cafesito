@@ -10,7 +10,7 @@ const Container = styled.div`
   flex-direction: column;
   @media (max-width: 768px) {
     height: 100vh;
-    padding: 30rem 0rem;
+    padding: 20rem 0rem;
   }
 `;
 const ContHead = styled.h1`
@@ -25,7 +25,7 @@ const ContHead = styled.h1`
   margin-bottom: 20px;
   text-decoration: underline;
   @media (max-width: 768px) {
-    font-size: 1rem;
+    font-size: 2rem;
     padding: 6px 50px;
   }
 `;
@@ -43,6 +43,7 @@ const SubContainer = styled.div`
     height: auto;
     margin-top: -10px;
     margin-bottom: -10px;
+    text-align:center;
   }
 `;
 const ContHeadsec = styled.div`
@@ -63,6 +64,10 @@ const ContPara = styled.p`
   padding: 2px 1px;
   font-family: sans-serif;
   margin-left: 10px;
+  @media (max-width: 768px) {
+  font-size:0.8rem;
+  
+  }
 `;
 const Privacy = () => {
   return (
