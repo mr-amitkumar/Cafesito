@@ -214,7 +214,7 @@ const ContactLink = styled(Link)`
   border-radius: 5px;
   text-decoration: none;
   @media (max-width: 768px) {
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding: 5px 10px;
   }
 `;
