@@ -10,7 +10,7 @@ const MenuContainer = styled.div`
   padding: 30rem 0;
     @media (max-width: 768px) {
     height: 100vh;
-    padding: 40rem 0;
+    padding: 34rem 0;
   } 
 `;
 
