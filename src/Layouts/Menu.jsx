@@ -83,7 +83,7 @@ const LeftHead = styled.h1`
   margin-top: 30px;
   margin-bottom: 20px;
     @media (max-width: 768px) {
-    font-size: 3.2rem;
+    font-size: 2.2rem;
     margin-top: 20px;
     margin-bottom: 10px;
   }
@@ -101,7 +101,7 @@ const LeftContentHead = styled.h2`
   margin-bottom: 10px;
   margin-left: 10px;
   @media (max-width: 768px) {
-    font-size: 23px;
+    font-size: 17px;
     margin-bottom: 5px;
   }
 
@@ -111,10 +111,10 @@ const LeftContentPara = styled.p`
   font-family: sans-serif;
   margin-left: 2px;
   text-align: center;
-  border-bottom: 0.5px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
   margin-bottom: 10px;
   @media (max-width: 768px) {
-    font-size: 15px;
+    font-size: 12px;
     margin-bottom: 5px;
   }
 `;
@@ -128,7 +128,7 @@ const RightHead = styled.h1`
   margin-top: 30px;
   margin-bottom: 20px;
   @media (max-width: 768px) {
-    font-size: 3.2rem;
+    font-size: 2.2rem;
     margin-top: 20px;
     margin-bottom: 10px;
   }
@@ -146,7 +146,7 @@ const RightContentHead = styled.h2`
   margin-bottom: 10px;
   margin-left: 10px;
   @media (max-width: 768px) {
-    font-size: 23px;
+    font-size: 17px;
     margin-bottom: 5px;
   }
 `;
@@ -158,7 +158,7 @@ const RightContentPara = styled.p`
   border-bottom: 1px solid lightgrey;
   margin-bottom: 10px;
   @media (max-width: 768px) {
-    font-size: 15px;
+    font-size: 12px;
     margin-bottom: 5px;
   }
 `;
