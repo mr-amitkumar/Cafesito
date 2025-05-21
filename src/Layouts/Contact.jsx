@@ -52,6 +52,7 @@ const Paragraph = styled.p`
   padding: 2px 1px;
   font-family: sans-serif;
   margin-left: 10px;
+  text-align:center;
   @media (max-width: 768px) {
     font-size: 1rem;
   }
