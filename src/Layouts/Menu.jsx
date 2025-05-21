@@ -10,7 +10,7 @@ const MenuContainer = styled.div`
   padding: 30rem 0;
     @media (max-width: 768px) {
     height: 100vh;
-    padding: 34rem 0;
+    padding: 40rem 0;
   } 
 `;
 
@@ -21,7 +21,7 @@ const MenuHead = styled.h1`
   border-radius: 10px;
   font-family: sans-serif;
     @media (max-width: 768px) {
-    font-size: 30px;
+    font-size: 45px;
   }
 `;
 const MenuPara = styled.p`
@@ -33,7 +33,7 @@ const MenuPara = styled.p`
   border-radius: 10px;
   font-family: sans-serif;
     @media (max-width: 768px) {
-    font-size: 15px;
+    font-size: 22px;
     padding: 10px 20px;
   }
 `;
@@ -68,7 +68,7 @@ const MenuDiv = styled.div`
   padding: 0 10%;
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
-    gap: 10px;
+    gap: 20px;
     padding: 0 5%;
     margin-top: 20px;
   }
@@ -83,7 +83,7 @@ const LeftHead = styled.h1`
   margin-top: 30px;
   margin-bottom: 20px;
     @media (max-width: 768px) {
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 20px;
     margin-bottom: 10px;
   }
@@ -128,7 +128,7 @@ const RightHead = styled.h1`
   margin-top: 30px;
   margin-bottom: 20px;
   @media (max-width: 768px) {
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 20px;
     margin-bottom: 10px;
   }
