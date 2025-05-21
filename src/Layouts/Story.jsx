@@ -34,8 +34,9 @@ const HeadH1 = styled.h1`
   font-weight: 500;
   padding: 20px;
   @media (max-width: 768px) {
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
     
   }
 `;
@@ -44,7 +45,7 @@ const HeadPara = styled.p`
   font-size: 0.95rem;
   font-family: sans-serif;
   @media (max-width: 768px) {
-    font-size: 0.85rem;
+    font-size: 1.2rem;
   }
 `;
 
@@ -67,6 +68,7 @@ const HeadJH1 = styled.h1`
   padding: 20px;
   @media (max-width: 768px) {
     font-size: 1.8rem;
+    font-weight:500;
   }
 `;
 
@@ -90,7 +92,7 @@ const H3 = styled.h3`
   font-family: sans-serif;
   margin-bottom: 10px;
   @media (max-width: 768px) {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-left: 0px;
   }
 `;
@@ -100,7 +102,7 @@ const H3P = styled.p`
   font-family: sans-serif;
   margin-bottom: 10px;
   @media (max-width: 768px) {
-    font-size: 0.8rem;
+    font-size: 0.95rem;
     margin-left: 0px;
   }
 `;
@@ -122,7 +124,8 @@ const ValuesHeadH1 = styled.h1`
   font-weight: 500;
   padding: 20px;
   @media (max-width: 768px) {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight:500;
   }
 `;
 const Valuespara = styled.p`
@@ -130,7 +133,7 @@ const Valuespara = styled.p`
   font-family: sans-serif;
   margin-bottom: 10px;
   @media (max-width: 768px) {
-    font-size: 0.8rem;
+    font-size: 0.99rem;
   }
 `;
 
@@ -152,8 +155,10 @@ const FHead = styled.h1`
   height: 100px;
   padding: 20px;
   @media (max-width: 768px) {
-    font-size: 1.2rem;
+    font-size: 2rem;
     text-align: center;
+    font-weight:500;
+    margin-bottom: 10px;
   }
 `;
 
@@ -185,7 +190,8 @@ const ContactHead = styled.h1`
   font-weight: 500;
   padding: 20px;
   @media (max-width: 768px) {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    font-weight: 500;
   }
 `;
 
