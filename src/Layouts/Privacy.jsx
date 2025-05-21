@@ -10,7 +10,7 @@ const Container = styled.div`
   flex-direction: column;
   @media (max-width: 768px) {
     height: 100vh;
-    padding: 20rem 0rem;
+    padding: 30rem 0rem;
   }
 `;
 const ContHead = styled.h1`
