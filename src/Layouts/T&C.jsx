@@ -10,7 +10,8 @@ const TContainer = styled.div`
   flex-direction: column;
   @media (max-width: 768px) {
     height: 100vh;
-    padding: 20rem 0rem;
+    padding: 30rem 0rem;
+    text-align:center;
   }
 `;
 const ContHead = styled.h1`
@@ -25,7 +26,7 @@ const ContHead = styled.h1`
   margin-bottom: 20px;
   text-decoration: underline;
   @media (max-width: 768px) {
-    font-size: 1rem;
+    font-size: 2rem;
     padding: 6px 50px;
   }
 `;
@@ -63,7 +64,6 @@ const ContPara = styled.p`
 const ContHeadsec = styled.div`
   background: rgba(255, 255, 255, 0.7);
   border-radius: 5px;
-
 `;
 const TremsAndConditions = () => {
   return (
