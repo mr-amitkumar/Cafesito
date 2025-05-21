@@ -18,6 +18,9 @@ const HomeContainer = styled.div`
   background-size: cover;
   background-position: center;
   transition: background-image 1s ease-in-out;
+  @media (max-width:768px){
+  background-position:center;
+  }
 
 `;
 const HomeDetails = styled.h1`
@@ -32,7 +35,7 @@ const HomeDetails = styled.h1`
   margin-bottom: 10px;
   background: rgba(0, 0, 0, 0.6);
     @media (max-width: 768px) {
-    font-size: 2rem;
+    font-size: 2.9rem;
     letter-spacing: 10px;
   }
 `;
