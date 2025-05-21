@@ -216,6 +216,7 @@ const ContactLink = styled(Link)`
   @media (max-width: 768px) {
     font-size: 1rem;
     padding: 5px 10px;
+    margin-top:15px;
   }
 `;
 const Story = () => {
